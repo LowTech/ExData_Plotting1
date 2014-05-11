@@ -1,6 +1,6 @@
 ## plot1()
 ##
-## Purpose: 
+## Purpose: Look at the frequency of global active power levels for two days in February
 ##
 ## Note: Assumes the dataset has already been unzipped and is sitting in the current working directory
 

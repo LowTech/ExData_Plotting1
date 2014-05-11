@@ -1,10 +1,10 @@
 ## plot4()
 ##
-## Purpose: 
+## Purpose: Look at time-series data, plotting various components of power consumption for two days in February
 ##
 ## Note: Assumes the dataset has already been unzipped and is sitting in the current working directory
 
-plot1 <- function() {
+plot4 <- function() {
   ## Read in the data
   data <- read.table("household_power_consumption.txt", header = T, sep = ";", colClasses = c(NA, NA, "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"), stringsAsFactors = F, na.strings = "?")
   
