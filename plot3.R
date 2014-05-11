@@ -17,7 +17,7 @@ plot3 <- function() {
   
   
   
-  ## Plot the Global Active Power data, by frequency; generate PNG
+  ## Plot the sub metering data as a time series; generate PNG
   png(filename = "plot3.png")
   plot(data$DateTime, data$Sub_metering_1, main = "", type = "n", xlab = "", ylab = "Energy sub metering")
   lines(data$DateTime, data$Sub_metering_1)

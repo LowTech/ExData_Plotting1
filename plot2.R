@@ -20,7 +20,7 @@ plot2 <- function() {
   
   
   
-  ## Plot the Global Active Power data, by frequency; generate PNG
+  ## Plot the Global Active Power data as a time series; generate PNG
   png(filename = "plot2.png")
   plot(data$DateTime, data$Global_active_power, type = "n", xlab = "", ylab = "Global Active Power (kilowatts)")
   lines(data$DateTime, data$Global_active_power)

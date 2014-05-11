@@ -17,7 +17,7 @@ plot4 <- function() {
   
   
   
-  ## Plot the Global Active Power data, by frequency; generate PNG
+  ## Plot time series of various energy consumption variables; generate PNG
   png(filename = "plot4.png")
   
   par(mfrow = c(2, 2))
